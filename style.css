@@ -50,7 +50,7 @@ li {
 #title {
     height:400px;
     background-color: #000;
-    background-image: url("foo-869x600.png");
+    background-image: url("images/foo-869x600.png");
     background-size: 869px 600px;
     background-repeat: no-repeat;
     background-position: right;
