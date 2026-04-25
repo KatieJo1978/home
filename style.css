@@ -109,6 +109,8 @@ p.tagline {
     width:510px;
     max-width:100%;
     margin:auto;
+    clear:both;
+    margin-bottom:20px;
 }
 .ytWrapper p {
     line-height:1em;
