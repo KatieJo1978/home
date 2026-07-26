@@ -1,4 +1,5 @@
 /* RESET */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +9,7 @@
 }
 
 /* PAGE LAYOUT */
+
 html {
     width: 100%;
 }
@@ -16,7 +18,7 @@ body {
     background-color: #fff;
 }
 
-/* TYPOGRAPHY */
+/* GENERAL TYPOGRAPHY */
 
 h1,h2,h3,h4,h5,h6 {
     font-weight:normal;
@@ -76,7 +78,6 @@ hr {
     background-position: right;
     border-bottom:1px solid #bbb;
 }
-
 #content {
     width: 100%;
     max-width: 800px;
@@ -86,7 +87,6 @@ p.tagline {
     text-align:center;
     padding-top:10px;
 }
-
 .nav {
     text-align:center;
     padding:20px;
@@ -104,24 +104,6 @@ p.tagline {
 .nav a {
     display:block;
     font-size:1.2em;
-}
-.ytWrapper {
-    width:510px;
-    max-width:100%;
-    margin:auto;
-    clear:both;
-    margin-bottom:20px;
-}
-.ytWrapper p {
-    line-height:1em;
-    padding:5px;
-    padding-bottom:0px;
-    padding-top:20px;
-    font-size:0.8em;
-    font-style:oblique;
-}
-iframe {
-    padding:5px;
 }
 .backToTop a {
     position:fixed;
@@ -151,3 +133,23 @@ div.footer {
     text-align:center;
 }
 
+/* EMBEDDED VIDEOS */
+
+.ytWrapper {
+    width:510px;
+    max-width:100%;
+    margin:auto;
+    clear:both;
+    margin-bottom:20px;
+}
+.ytWrapper p {
+    line-height:1em;
+    padding:5px;
+    padding-bottom:0px;
+    padding-top:20px;
+    font-size:0.8em;
+    font-style:oblique;
+}
+iframe {
+    padding:5px;
+}
