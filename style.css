@@ -25,6 +25,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size:2.2em;
     line-height:1.1em;
     margin:0px 2px;
+    clear:both;
 }
 h1 {
     color:#000;
@@ -37,9 +38,8 @@ h1 {
 }
 h2 {
     text-align:center;
-    margin-top:20px;
-    margin-bottom:0px;
-    padding:30px;
+    padding:25px;
+    margin-top:50px;
 }
 h3 {
     font-size:1.3em;
@@ -90,7 +90,6 @@ p.tagline {
 .nav {
     text-align:center;
     padding:20px;
-    padding-bottom:40px;
     clear:both;
 }
 .nav ul {   
@@ -103,7 +102,8 @@ p.tagline {
 }
 .nav a {
     display:block;
-    font-size:1.2em;
+    font-size:1.6em;
+    padding-left: 10px;
 }
 .backToTop a {
     position:fixed;
