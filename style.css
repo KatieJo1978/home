@@ -6,6 +6,7 @@
     border: 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size:18px;
+    clear:both;
 }
 
 /* PAGE LAYOUT */
@@ -15,7 +16,8 @@ html {
 }
 body {
     color:#555;
-    background-color: #fff;
+    background-color:#eee;
+    //background-color:cyan; //DEBUGGING
 }
 
 /* GENERAL TYPOGRAPHY */
@@ -27,29 +29,30 @@ h1,h2,h3,h4,h5,h6 {
     margin:0px 2px;
     clear:both;
 }
-h1 {
-    color:#000;
-    background-color:rgba(222, 222, 222, 0.5);
+h1, p.tagline {
+    color:#ddd;
     padding-left:40px;
     padding-right:40px;
-    padding-top:10px;
+    padding-top:25px;
     padding-bottom:0px;
     position:relative;
 }
+p.tagline {
+    font-size:1.2em;
+    padding-left:48px;
+    padding-top:8px;
+}
 h2 {
-    text-align:center;
-    padding:25px;
-    margin-top:50px;
+    padding:30px 2px;
 }
 h3 {
     font-size:1.3em;
 }
 p {
-    padding:20px;   
+    padding:0px 4px;
 }
 a {
     color: #e81717;
-    color: #ff4f4f;
     text-decoration:none;
     cursor:pointer;
 }
@@ -66,6 +69,13 @@ hr {
     margin:auto;
     clear:both;
 }
+img {
+    float:left;
+    clear:none;
+}
+iframe {
+    padding-bottom:50px;
+}
 
 /* SPECIFIC STYLES */
 
@@ -77,33 +87,40 @@ hr {
     background-repeat: no-repeat;
     background-position: right;
     border-bottom:1px solid #bbb;
+    margin-bottom:20px;
 }
 #content {
     width: 100%;
     max-width: 800px;
     margin: 0px auto;
 }
-p.tagline {
-    text-align:center;
-    padding-top:10px;
-}
 .nav {
-    text-align:center;
     padding:20px;
+    padding-top:0px;
+    padding-left:70px;
     clear:both;
 }
 .nav ul {   
     display: inline-block;
     text-align: left;
-}
-.nav li {
-    float:left;
-    padding:10px;
+    margin-top:20px;
 }
 .nav a {
     display:block;
-    font-size:1.6em;
-    padding-left: 10px;
+    font-size:1.4em;
+    color:#ff8080;
+    color:#e1aaaa;
+    background-color:#000;
+    padding:10px 20px;
+}
+.nav a:hover {
+    color: #e81717;
+    background-color:#ddd;
+    text-decoration:none;
+}
+p.space-p {
+    padding:0px 2px;
+    padding-bottom:30px;
 }
 .backToTop a {
     position:fixed;
@@ -113,12 +130,8 @@ p.tagline {
     font-size:1.4em;
     padding:5px 15px;
     border-radius:5px;
-    background-color:rgba(255, 255, 255, 0.6);
+    //background-color:rgba(255, 255, 255, 0.6);
 }
-.backToTop a:hover {
-    background-color:#fff2bc;
-    text-decoration:none;
-} 
 .bigger {
     font-size:1.2em;
 }
@@ -135,6 +148,7 @@ div.footer {
 
 /* EMBEDDED VIDEOS */
 
+/*
 .ytWrapper {
     width:510px;
     max-width:100%;
@@ -154,3 +168,4 @@ iframe {
     padding:0px;
     padding-top:3px;
 }
+*/
